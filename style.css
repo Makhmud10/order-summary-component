@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    margin: 0;
+}
+
+main {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    width: 100vw;
+    height: 645px;
+    padding-top: 50px;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 20px hsl(224, 23%, 55%);
+}
+
+.order-img img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.info {
+    color: hsl(224, 23%, 55%);
+    width: 300px;
+    margin: 20px auto;
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 380px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.music-left {
+    padding: 10px 20px;
+}
+
+.music-center {
+    line-height: 10px;
+}
+
+.music-name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.music-price {
+    color: hsl(224, 23%, 55%);
+}
+
+.music-right {
+    padding: 10px 10px 10px 120px;
+    font-weight: 700;
+}
+
+.music-right a:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.payment-btn button {
+    width: 380px;
+    padding: 15px 0;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.payment-btn button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+    padding: 15px 0;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.cancel-btn a {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cancel-btn a:hover {
+    color: hsl(223, 47%, 23%);
+}
